@@ -61,7 +61,7 @@ namespace LojaGeek
                         List<Cliente> clientes = cliente.listacliente();
                         dgvCliente.DataSource = clientes;
                         txtNome.Text = "";
-                        lblCpf.Text = "";
+                        txtCpf.Text = "";
                         txtDataNascimento.Text = "";
                         txtCelular.Text = "";
                         this.txtNome.Focus();
